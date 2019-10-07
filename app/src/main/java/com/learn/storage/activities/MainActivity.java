@@ -1,5 +1,6 @@
 package com.learn.storage.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         switch(item.getItemId()){
             case R.id.register_users:
                 //Call activity to register Users
+                Intent intent = new Intent(this, CreateUser.class);
+                startActivity(intent);
                 break;
             case R.id.register_projects:
                 //Call activity to register Projects

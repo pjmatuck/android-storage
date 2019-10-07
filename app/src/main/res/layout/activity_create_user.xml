@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.CreateUser">
+    tools:context=".activities.CreateUser"
+    android:theme="@style/Theme.AppCompat.Light">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
